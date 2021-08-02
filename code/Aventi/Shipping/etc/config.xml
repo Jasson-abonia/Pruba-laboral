@@ -8,6 +8,8 @@
 				<title>Aventi_Shipping</title>
 				<name>Aventi_Shipping</name>
 				<price>0.00</price>
+				<price_bogota>0.00</price_bogota>
+				<price_cali>0.00</price_cali>
 				<specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
 				<sallowspecific>0</sallowspecific>
 			</aventi_shipping>

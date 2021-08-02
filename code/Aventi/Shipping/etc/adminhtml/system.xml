@@ -15,6 +15,12 @@
 					<label>Price</label>
 					<validate>validate-number validate-zero-or-greater</validate>
 				</field>
+				<field id="price_bogota" translate="label comment" type="text" sortOrder="32" showInDefault="1" showInWebsite="0" showInStore="0">
+				    <label>Precio especial to Bogota</label>
+				</field>
+				<field id="price_cali" translate="label" type="text" sortOrder="34" showInDefault="1" showInWebsite="0" showInStore="0">
+				    <label>Precio especial to Cali</label>
+				</field>
 				<field id="sort_order" type="text" sortOrder="40" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
 					<label>Sort Order</label>
 				</field>

@@ -68,7 +68,7 @@ class Aventi_Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier im
             $method->setMethodTitle($this->getConfigData('name'));
 
             if ($request->getFreeShipping() === true) {
-                $shippingPrice = '10000';
+                $shippingPrice = '0.00';
             }
 
             $method->setPrice($shippingPrice);
@@ -77,7 +77,7 @@ class Aventi_Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier im
             $result->append($method);
         }
 
-        $shippingBogota = $this->getConfigData('Price special to Bogota');
+        $shippingBogota = $this->getConfigData('price_bogota');
 
         $result = $this->_rateResultFactory->create();
 
@@ -91,7 +91,7 @@ class Aventi_Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier im
             $method->setMethodTitle($this->getConfigData('name'));
 
             if ($request->getFreeShipping() === true) {
-                $shippingBogota = '10800';
+                $shippingBogota = '0.00';
             }
 
             $method->setPrice($shippingBogota);
@@ -100,7 +100,7 @@ class Aventi_Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier im
             $result->append($method);
         }
 
-        $shippingCali = $this->getConfigData('Price special to Cali');
+        $shippingCali = $this->getConfigData('price_cali');
 
         $result = $this->_rateResultFactory->create();
 
@@ -114,7 +114,7 @@ class Aventi_Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier im
             $method->setMethodTitle($this->getConfigData('name'));
 
             if ($request->getFreeShipping() === true) {
-                $shippingCali = '7200';
+                $shippingCali = '0.00';
             }
 
             $method->setPrice($shippingCali);

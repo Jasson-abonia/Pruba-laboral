@@ -323,11 +323,9 @@ return [
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
         'Temando_ShippingRemover' => 1,
-        'Test_Omnipro' => 1,
         'Vertex_Tax' => 1,
         'Vertex_AddressValidationApi' => 1,
         'Vertex_AddressValidation' => 1,
-        'Yereone_ProductCarousel' => 1,
         'Yotpo_Yotpo' => 1
     ]
 ];
